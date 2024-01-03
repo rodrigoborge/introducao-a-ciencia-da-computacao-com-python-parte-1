@@ -1,7 +1,7 @@
-numero = int(input("Fatorial de: "))
-resultado = 1
-cont = 1
-while cont <= numero:
-    resultado *= cont
-    cont += 1
-print("O fatorial de",numero,"é:",resultado)
+x = int(input("Escreva um número: "))
+soma = 0
+while (x != 0):
+    resto = x % 10
+    x = (x - resto)//10
+    soma = soma + resto
+print("A soma dos números digitados é:",soma)
