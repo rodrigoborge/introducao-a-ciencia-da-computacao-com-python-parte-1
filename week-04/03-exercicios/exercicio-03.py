@@ -1,7 +1,10 @@
-x = int(input("Escreva um número: "))
-soma = 0
-while (x != 0):
-    resto = x % 10
-    x = (x - resto)//10
-    soma = soma + resto
-print("A soma dos números digitados é:",soma)
+numero = input("Digite um número maior que zero: ")
+if int(numero) > 0:
+    i = 0
+    s = 0
+    while i < len(numero):
+        s = s + int(numero[i])
+        i = i + 1
+    print(s)
+else:
+    print("0")
