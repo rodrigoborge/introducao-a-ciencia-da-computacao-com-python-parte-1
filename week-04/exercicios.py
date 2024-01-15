@@ -9,6 +9,5 @@ while (not terminou):
             p = p + 1
         else:
             i = i + 1
-
 print ("P = ", p)
 print ("I = ", i)
